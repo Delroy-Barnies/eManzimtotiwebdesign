@@ -1,0 +1,14 @@
+[
+    {
+        "name": "The Shulamite Bride - Personal Blog Site",
+        "services": "Generated images, Custom images, Dynamic and performant, Optimized for mobile displays",
+        "img_url": "https://res.cloudinary.com/dcf9ddcmh/image/upload/v1731080178/shulamite_small_fcxx7s.png",
+        "website_url": "https://lavernpoisson.github.io/TheShulamiteBride/"
+    },
+    {
+        "name": "DRENCH - eccomerce web app frontend",
+        "services": "Api usage, Built using the latest ReactJs technologies, Dynamic and performant, Optimized for mobile displays",
+        "img_url": "https://res.cloudinary.com/dcf9ddcmh/image/upload/v1731080203/drench_small_nuxkn3.png",
+        "website_url": "https://shopping-cart-psi-ochre.vercel.app/"
+    }
+]

@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --textColor: #362c56;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+
+    color: var(--textColor);
+    padding-bottom: 60px;
+}
+
+.container {
+    display: flex;
+    margin-top: 60px;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    width: 500px;
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif, serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subheading {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.2rem;
+    color: #4d5051;
+    width: 570px;
+}
+
+.email_container,
+.contact_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.email_heading_container,
+.contact_heading_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email_heading,
+.contact_heading {
+    margin: 0;
+    align-items: center;
+}
+
+.email_,
+.contact_num {
+    margin: 0;
+}
+
+.email_icon,
+.contact_icon {
+    width: 50px;
+}
+
+.review_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 200px;
+}
+
+.review_heading {
+    margin: 0;
+}
+
+.review_icon {
+    width: 200px;
+}
+
+.review_gif {
+    width: 300px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #dad7d7;
+    padding: 30px;
+    gap: 20px;
+}
+
+.name_and_email {
+    display: flex;
+    gap: 10px;
+}
+
+.name,
+.email {
+    font-family: "DM Sans", serif;
+    padding: 20px 10px 20px 10px;
+    border-style: none;
+    font-size: 1rem;
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+}
+
+.message {
+    font-family: "DM Sans", serif;
+    padding: 20px 10px 20px 10px;
+    height: 100px;
+    border-style: none;
+    font-size: 1rem;
+    resize: none;
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+}
+
+.submit {
+    background-color: #fff;
+    color: black;
+    border: 0 solid #e2e8f0;
+    border-radius: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "DM Sans", serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.submit:hover {
+    background-color: #362c56;
+    color: #fff;
+}
+
+@media(max-width:1070px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subheading {
+        width: 100%;
+    }
+
+    .fields {
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .submit {
+        font-size: 1.125rem;
+        padding: 1rem 2rem;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .subheading {
+        font-size: 1.1rem;
+    }
+
+    .email_heading,
+    .contact_heading {
+        font-size: 0.9rem;
+    }
+
+    .email_,
+    .contact_num {
+        font-size: 0.8rem;
+    }
+
+    .email_icon,
+    .contact_icon {
+        width: 45px;
+    }
+
+    .review_heading {
+        margin: 0;
+    }
+
+    .review_icon {
+        width: 170px;
+    }
+
+    .review_gif {
+        width: 250px;
+    }
+}
+
+@media(max-width:630px) {
+
+    .container {
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100vw;
+    }
+
+    .info {
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .subheading {
+        width: 100%;
+    }
+
+    .name_and_email {
+        flex-direction: column;
+    }
+
+    .fields {
+        width: 100%;
+    }
+
+    .form {
+        width: 70%;
+    }
+}
+
+@media(max-width:350px) {
+    .info {
+        width: 80%;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --textColorWhite: #382e59;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    overflow: hidden;
+
+    padding-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.logo_div {
+    width: 230px;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.text {
+    color: var(--textColorWhite);
+    position: relative;
+
+    font-family: "DM Sans", serif;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links_heading {
+    color: var(--textColorWhite);
+    font-family: "Montserrat", serif;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.link {
+    color: var(--textColorWhite);
+    font-family: "DM Sans", serif;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.element_left {
+    width: 300px;
+
+    position: relative;
+    right: 150px;
+    top: 200px;
+    rotate: 60deg;
+}
+
+.element_right_bottom {
+    width: 400px;
+
+    position: relative;
+    top: 190px;
+    left: 120px;
+    rotate: 40deg;
+}
+
+.copyright_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.copyright {
+    width: 15px;
+}
+
+.copyright_text {
+    color: black;
+    font-size: 0.8rem;
+    margin-left: 2px;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media(max-width: 940px) {
+    .footer {
+        justify-content: center;
+    }
+
+    .element_left {
+        display: none;
+    }
+
+    .element_right_bottom {
+        display: none;
+    }
+
+}

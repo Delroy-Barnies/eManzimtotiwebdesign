@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Website Design and Build",
+        "services": "Website designs that are professional and dynamic, Performance and maintenance updates, Generated images, Built with reactjs, Delivered in less than 7 days",
+        "img_url": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg",
+        "url": "../websitedesignandbuild"
+    },
+    {
+        "name": "Custom Website Solutions",
+        "services": "Custom website solutions, Website optimizations, Performance and maintenance updates, Personalized service, Delivered in less than 7 days",
+        "img_url": "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg",
+        "url": "../customwebsitesolutions"
+    },
+    {
+        "name": "Bug Fixes and Optimizations",
+        "services": "Fix existing bugs, Website optimizations, Performance and maintenance updates, Zero down time",
+        "img_url": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg",
+        "url": "../bugfixes"
+    }
+]
