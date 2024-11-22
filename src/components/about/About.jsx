@@ -13,9 +13,9 @@ export function About() {
                     </div>
                     <div className={styles.introduction_text_and_img}>
                         <p className={styles.introduction_text}>
-                            Welcome to eManzimtoti Web Design! If you’re on the hunt for a skilled and experienced React.js
-                            developer who fits your budget, look no further. We specialize in crafting stunning and efficient
-                            front ends for web applications, tailored to meet your unique needs.
+                            Welcome to <b>eManzimtoti Web Design,</b> <br />If you’re on the hunt for a skilled and experienced web
+                            developer who fits your budget, look no further. We specialize in crafting <b>stunning</b> and <b>efficient</b> front ends for web applications,
+                            tailored to meet your unique needs.
                             <br /><br />
                             We have been established to become one of the leaders in the web design and development industry
                             and offering our users the power to succeed in all their endeavors.
