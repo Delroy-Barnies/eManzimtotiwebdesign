@@ -248,6 +248,32 @@
     .form {
         width: 70%;
     }
+
+    .name,
+    .email,
+    .message {
+        background-color: white;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .container {
+        gap: 40px;
+    }
+
+    .email_icon {
+        display: none;
+    }
+
+    .contact_icon {
+        display: none;
+    }
+
+    .review_gif {
+        display: none;
+    }
+
 }
 
 @media(max-width:350px) {
