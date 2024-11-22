@@ -158,15 +158,18 @@
         margin-right: 20px;
     }
 
-    .icon{
+    .icon {
         display: none;
     }
 
     .burger_menu {
         display: flex;
-    }
+        position: fixed;
+        top: 35px;
 
-    .menu{
-        width: 35px;
+        background-color: white;
+        padding: 5px;
+        z-index: 5;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     }
 }

@@ -62,12 +62,11 @@
 }
 
 .subheading {
-    font-family: "DM Sans", serif;
-    font-weight: 400;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
     width: 600px;
     text-align: center;
-    font-style: italic;
-    color: var(--textColor);
+    color: #4d5051;
 }
 
 .link {
