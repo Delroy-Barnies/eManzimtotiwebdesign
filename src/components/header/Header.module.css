@@ -158,7 +158,15 @@
         margin-right: 20px;
     }
 
+    .icon{
+        display: none;
+    }
+
     .burger_menu {
         display: flex;
+    }
+
+    .menu{
+        width: 35px;
     }
 }

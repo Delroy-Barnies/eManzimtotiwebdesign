@@ -176,7 +176,7 @@
 @media(max-width:380px) {
 
     .home {
-        height: max(81vh, 400px);
+        height: max(80vh, 400px);
     }
 
     .heading_container {
