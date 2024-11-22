@@ -156,6 +156,7 @@
 
     .social {
         margin-right: 20px;
+        flex-direction: column;
     }
 
     .icon {
