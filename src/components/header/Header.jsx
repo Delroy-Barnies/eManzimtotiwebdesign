@@ -2,7 +2,7 @@ import styles from "./Header.module.css";
 import companyLogoIcon from '../../assets/company_logo.svg';
 import facebookIcon from '../../assets/facebook.svg';
 import whatsappIcon from '../../assets/whatsapp.svg';
-import burgerMenu from '../../assets/menu.svg'
+import burgerMenu from '../../assets/burger_menu.svg'
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import { useState } from "react";
