@@ -125,7 +125,7 @@
 .sidebar {
     display: none;
     right: 0;
-    top: 100px;
+    top: 99px;
     z-index: 5;
     position: fixed;
     width: 70vw;
@@ -136,7 +136,7 @@
     background-color: rgb(245, 245, 245);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-    transition: ease-in-out 1s;
+    transition: ease 0.7s;
 }
 
 .sidebar_links_nav {

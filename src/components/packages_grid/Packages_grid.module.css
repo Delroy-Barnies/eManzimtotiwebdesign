@@ -116,4 +116,9 @@
     .package_info {
         font-size: 0.9rem;
     }
+
+    .package:hover {
+        color: var(--textColor);
+        box-shadow: none;
+    }
 }
