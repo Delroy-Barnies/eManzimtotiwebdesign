@@ -10,7 +10,7 @@ export function BugFixes() {
                     <h2 className={styles.heading}>PACKAGE</h2>
                     <h3 className={styles.subheading} >Bug Fixes and Optimization</h3>
                 </div>
-                <img src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg" className={styles.package_img} />
+                <img src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&h=350" className={styles.package_img} />
                 <p className={styles.info}>
                     <br /><br />
 

@@ -10,7 +10,7 @@ export function WebsiteDesignAndBuild() {
                     <h2 className={styles.heading}>PACKAGE</h2>
                     <h3 className={styles.subheading} >Website Design and Build</h3>
                 </div>
-                <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" className={styles.package_img} />
+                <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&h=350" className={styles.package_img} />
                 <p className={styles.info}>
                     <br /><br />
 
