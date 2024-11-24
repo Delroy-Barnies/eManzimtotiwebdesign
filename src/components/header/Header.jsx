@@ -44,11 +44,11 @@ export default function Header() {
             <div className={styles.sidebar} style={{ transform: `translateX(${sidebar})` }}>
                 <button className={styles.burger_menu} onClick={setSidebarStatus}><img className={styles.menu} alt="company logo icon" src={burgerMenu} /></button>
                 <nav className={styles.sidebar_links_nav}>
-                    <HashLink className={styles.sidebar_link}>Home</HashLink>
-                    <HashLink className={styles.sidebar_link}>About</HashLink>
-                    <HashLink className={styles.sidebar_link}>Packages</HashLink>
-                    <HashLink className={styles.sidebar_link}>Projects</HashLink>
-                    <HashLink className={styles.sidebar_link}>Contact</HashLink>
+                    <Link onClick={setSidebarStatus} className={styles.sidebar_link} to="../" >Home</Link>
+                    <HashLink onClick={setSidebarStatus} smooth to="/#about" className={styles.sidebar_link} >About</HashLink>
+                    <HashLink onClick={setSidebarStatus} smooth to="/#packages" className={styles.sidebar_link} >Packages</HashLink>
+                    <HashLink onClick={setSidebarStatus} smooth to="/#projects" className={styles.sidebar_link} >Projects</HashLink>
+                    <Link onClick={setSidebarStatus} to="../contact" className={styles.sidebar_link} >Contact</Link>
                 </nav>
             </div>
         </header>
