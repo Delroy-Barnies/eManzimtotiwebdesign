@@ -1,6 +1,7 @@
 import ceoImage from "../../assets/delroy_company_element.png";
 import cat_gif from "../../assets/cat.mp4";
 import styles from "./Packages.module.css";
+import PackageImage from "./PackageImage";
 
 export function BugFixes() {
     return (<>
@@ -10,7 +11,7 @@ export function BugFixes() {
                     <h2 className={styles.heading}>PACKAGE</h2>
                     <h3 className={styles.subheading} >Bug Fixes and Optimization</h3>
                 </div>
-                <img src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&h=350" className={styles.package_img} />
+                <PackageImage src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&h=350" />
                 <p className={styles.info}>
                     <br /><br />
 

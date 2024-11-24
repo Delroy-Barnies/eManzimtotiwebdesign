@@ -1,6 +1,7 @@
 import ceoImage from "../../assets/delroy_company_element.png";
 import cat_gif from "../../assets/cat.mp4";
 import styles from "./Packages.module.css";
+import PackageImage from "./PackageImage";
 
 export function CustomWebsiteSolutions() {
     return (<>
@@ -10,7 +11,7 @@ export function CustomWebsiteSolutions() {
                     <h2 className={styles.heading}>PACKAGE</h2>
                     <h3 className={styles.subheading} >Custom Website Solutions</h3>
                 </div>
-                <div className={styles.package_img} style={{ backgroundImage: "url('https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&h=350')" }}></div>
+                <PackageImage src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&h=350" />
                 <p className={styles.info}>
                     <br /><br />
                     If you're looking for a skilled and experienced website developer who fits your budget, then look no further!<br />
