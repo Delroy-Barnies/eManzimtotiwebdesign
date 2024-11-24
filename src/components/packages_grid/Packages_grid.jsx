@@ -1,15 +1,17 @@
-import styles from "./Packages_grid.module.css"
-import packages from "./Packages.json"
 import { uniqueId } from "lodash";
 import { Link } from "react-router-dom";
+import packages from "./Packages.json";
+import styles from "./Packages_grid.module.css";
 
 export function Packages_grid() {
+
     function scrollToTop() {
         window.scrollTo({
             top: 0,
             behavior: 'smooth', // This makes the scroll smooth
         });
     }
+
     return (<>
         <section className={styles.packages} id="packages">
             <div className={styles.packages_container}>
@@ -19,7 +21,7 @@ export function Packages_grid() {
                 </div>
                 <div className={styles.packages_grid}>
                     {packages.map((package_ => {
-                        return package_ ? <Link to={package_.url} onclick={scrollToTop()} className={styles.package} key={uniqueId()}>
+                        return package_ ? <Link to={package_.url} onClick={scrollToTop()} className={styles.package} key={uniqueId()}>
                             <div className={styles.package_img} style={{ backgroundImage: `url('${package_.img_url}')` }}></div>
                             <div className={styles.package_info}>
                                 <h4 className={styles.package_name}>{package_.name}</h4>

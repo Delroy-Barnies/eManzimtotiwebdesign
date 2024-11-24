@@ -16,7 +16,7 @@ export function Projects() {
                         return project ? <div className={styles.project} key={uniqueId()}>
                             <div className={styles.project_img} style={{ backgroundImage: `url('${project.img_url}')` }}></div>
                             <h4 className={styles.project_name}>{project.name}</h4>
-                            <ul classname={styles.services}>
+                            <ul className={styles.services}>
                                 {project.services.split(",").map((service) => {
                                     return service ? <li className={styles.service} key={uniqueId()}>
                                         {service}
