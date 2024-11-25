@@ -101,7 +101,7 @@
 
 .burger_menu {
     display: none;
-    background-color: transparent;
+    background-color: pink;
     border-radius: 0;
     padding: 0;
     border-style: none;
@@ -120,12 +120,14 @@
     width: 40px;
     cursor: pointer;
     transition: 0.15s ease-in-out;
+
+    background-color: rgb(247, 209, 215);
 }
 
 .sidebar {
     display: none;
     right: 0;
-    top: 99px;
+    top: 30px;
     z-index: 5;
     position: fixed;
     width: 70vw;
@@ -206,7 +208,6 @@
 
     .burger_menu {
         display: flex;
-        background-color: white;
         padding: 5px;
         box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     }
