@@ -120,14 +120,32 @@
     width: 40px;
     cursor: pointer;
     transition: 0.15s ease-in-out;
+    padding: 5px;
 
     background-color: rgb(247, 209, 215);
+}
+
+.fb_sidebar {
+    width: 50px;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+    padding: 0;
+    margin: 0;
+
+    background-color: aliceblue;
+}
+
+.wa_sidebar {
+    width: 50px;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
 }
 
 .sidebar {
     display: none;
     right: 0;
-    top: 30px;
+    padding-top: 99px;
+    top: 0px;
     z-index: 5;
     position: fixed;
     width: 70vw;
@@ -208,7 +226,6 @@
 
     .burger_menu {
         display: flex;
-        padding: 5px;
         box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     }
 }
