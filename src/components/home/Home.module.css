@@ -170,6 +170,10 @@
         left: 60px;
     }
 
+    .link:hover {
+        color: var(--textColor);
+    }
+
 }
 
 @media(max-width:380px) {

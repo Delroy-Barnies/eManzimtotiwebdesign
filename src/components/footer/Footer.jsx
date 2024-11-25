@@ -16,14 +16,14 @@ export default function Footer() {
             <img className={styles.element_left} src={element}></img>
             <div className={styles.content}>
                 <div className={styles.logo_div}>
-                    <Link to="../" onClick={scrollToTop()}><img className={styles.logo} alt="company logo icon" src={companyLogoIcon}></img></Link>
+                    <Link smooth to="../" onClick={scrollToTop()}><img className={styles.logo} alt="company logo icon" src={companyLogoIcon}></img></Link>
                     <p className={styles.text}>Transforming Ideas into Stunning, Responsive Websites that Captivate and Convert</p>
                 </div>
                 <div className={styles.links}>
                     <h3 className={styles.links_heading}>Get In Touch</h3>
                     <a href="mailto:emanzimtotiwebdesign@gmail.com" className={styles.link}>Email Us</a>
                     <a href="https://www.facebook.com/profile.php?id=61567671659062" className={styles.link}>Follow Us</a>
-                    <Link to="../contact" onClick={scrollToTop()} className={styles.link}>Contact Us</Link>
+                    <Link smooth to="../contact" onClick={scrollToTop()} className={styles.link}>Contact Us</Link>
                 </div>
                 <div className={styles.copyright_container}>
                     <img className={styles.copyright} src={copyrightIcon}></img>

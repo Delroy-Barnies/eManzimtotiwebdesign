@@ -28,7 +28,7 @@ export default function Header() {
     return (<>
         <header className={styles.header}>
             <div className={styles.logo_and_nav_container}>
-                <Link to="../" href="" className={styles.logo_div}>
+                <Link smooth to="../" href="" className={styles.logo_div}>
                     <img className={styles.logo} alt="company logo icon" src={companyLogoIcon}></img>
                 </Link>
                 <nav className={styles.links_nav}>

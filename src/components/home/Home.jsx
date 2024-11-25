@@ -1,3 +1,4 @@
+import { HashLink } from "react-router-hash-link";
 import clickGif from "../../assets/click.gif";
 import element from "../../assets/home_page_element.svg";
 import video_bg from "../../assets/video_bg_1.mp4";
@@ -14,7 +15,7 @@ export function Home() {
             <div className={styles.heading_container}>
                 <h1 className={styles.heading}>Digital Sorcery Unleashed</h1>
                 <h2 className={styles.subheading}>Transforming Ideas into Stunning, Responsive Websites that  Captivate and Convert</h2>
-                <a href="#about" className={styles.link}>LEARN MORE</a>
+                <HashLink smooth to="/#about" className={styles.link}>LEARN MORE</HashLink>
                 <img className={styles.click} src={clickGif}></img>
             </div>
             <img className={styles.element_right} src={element}></img>
