@@ -1,7 +1,7 @@
-import styles from "./Home.module.css"
-import element from "../../assets/home_page_element.svg"
-import clickGif from "../../assets/click.gif"
-import video_bg from "../../assets/video_bg_1.mp4"
+import clickGif from "../../assets/click.gif";
+import element from "../../assets/home_page_element.svg";
+import video_bg from "../../assets/video_bg_1.mp4";
+import styles from "./Home.module.css";
 
 export function Home() {
     return (<>

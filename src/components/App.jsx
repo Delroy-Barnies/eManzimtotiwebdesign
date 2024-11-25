@@ -1,18 +1,14 @@
-import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
-import Header from './header/Header'
-import styles from './App.module.css';
-import { Home } from './home/Home';
-import Footer from './footer/Footer';
+import { useParams } from "react-router-dom";
 import { About } from './about/About';
+import Contact from './contact/Contact';
+import Footer from './footer/Footer';
+import Header from './header/Header';
+import { Home } from './home/Home';
+import { BugFixes } from './packages/BugFixes';
+import { CustomWebsiteSolutions } from './packages/CustomWebsiteSolutions';
+import { WebsiteDesignAndBuild } from './packages/WebsiteDesignAnd Build';
 import { Packages_grid } from './packages_grid/Packages_grid';
 import { Projects } from './projects/Projects';
-import Contact from './contact/Contact';
-import { useParams } from "react-router-dom";
-import { WebsiteDesignAndBuild } from './packages/WebsiteDesignAnd Build';
-import { CustomWebsiteSolutions } from './packages/CustomWebsiteSolutions';
-import { BugFixes } from './packages/BugFixes';
 
 function App() {
   const { section } = useParams();

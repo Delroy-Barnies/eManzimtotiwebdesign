@@ -1,7 +1,7 @@
-import styles from "./Projects.module.css"
-import projects from "./Projects.json"
 import { uniqueId } from "lodash";
-import arrow from "../../assets/arrow.svg"
+import arrow from "../../assets/arrow.svg";
+import projects from "./Projects.json";
+import styles from "./Projects.module.css";
 
 export function Projects() {
     return (<>

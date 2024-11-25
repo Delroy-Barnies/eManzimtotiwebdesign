@@ -1,5 +1,5 @@
+import { useEffect, useState } from "react";
 import styles from "./Packages.module.css";
-import { useState, useEffect } from "react";
 
 const PackageImage = (props) => {
     const [loading, setLoading] = useState(true);

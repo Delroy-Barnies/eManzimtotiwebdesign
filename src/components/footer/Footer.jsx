@@ -1,9 +1,8 @@
-import styles from "./Footer.module.css"
-import element from "../../assets/element_block.svg"
-import copyrightIcon from "../../assets/copyright.svg"
-import emailIcon from "../../assets/email.svg"
-import companyLogoIcon from '../../assets/company_logo.svg';
 import { Link } from "react-router-dom";
+import companyLogoIcon from '../../assets/company_logo.svg';
+import copyrightIcon from "../../assets/copyright.svg";
+import element from "../../assets/element_block.svg";
+import styles from "./Footer.module.css";
 
 export default function Footer() {
     function scrollToTop() {

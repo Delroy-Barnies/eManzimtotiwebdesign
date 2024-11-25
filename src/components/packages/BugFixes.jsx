@@ -1,7 +1,6 @@
-import ceoImage from "../../assets/delroy_company_element.png";
 import cat_gif from "../../assets/cat.mp4";
-import styles from "./Packages.module.css";
 import PackageImage from "./PackageImage";
+import styles from "./Packages.module.css";
 
 export function BugFixes() {
     return (<>

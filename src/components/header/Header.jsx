@@ -1,23 +1,26 @@
-import styles from "./Header.module.css";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+import burgerMenu from '../../assets/burger_menu.svg';
 import companyLogoIcon from '../../assets/company_logo.svg';
 import facebookIcon from '../../assets/facebook.svg';
 import whatsappIcon from '../../assets/whatsapp.svg';
-import burgerMenu from '../../assets/burger_menu.svg'
-import { Link } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
-import { useState } from "react";
+import styles from "./Header.module.css";
 
 export default function Header() {
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const [sidebar, setSidebar] = useState("100%");
+    const [bgFilter, setBgFilter] = useState("none");
 
     function setSidebarStatus() {
         if (sidebarOpen) {
             setSidebar("100%");
             setSidebarOpen(false);
+            setBgFilter("none");
         } else {
             setSidebar("0%");
             setSidebarOpen(true);
+            setBgFilter("flex");
         }
     }
     return (<>
@@ -51,6 +54,8 @@ export default function Header() {
                     <Link onClick={setSidebarStatus} to="../contact" className={styles.sidebar_link} >Contact</Link>
                 </nav>
             </div>
+
+            <div className={styles.bg_filter} style={{ display: bgFilter }}></div>
         </header>
     </>);
 }
