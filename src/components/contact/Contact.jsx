@@ -42,7 +42,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className={styles.review_container}>
-                        <h4 className={styles.review_heading}>LEAVE A REVIEW</h4>
+                        <h4 className={styles.review_heading}>LEAVE A REVIEW (tap/scan)</h4>
                         <a href="https://g.page/r/CWMGJ2bTIi5KEAE/review"><img src={qrcode} className={styles.review_icon} /></a>
                     </div>
                 </div>
@@ -51,6 +51,7 @@ export default function Contact() {
                         <source src={contact_} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
+                    <h4 className={styles.email_form_heading}>LEAVE US A NOTE</h4>
                     <form ref={form} onSubmit={sendEmail} className={styles.form}>
                         <div className={styles.name_and_email}>
                             <input className={styles.name} placeholder="Your Name" type="text" name="user_name" required />

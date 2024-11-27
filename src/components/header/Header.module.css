@@ -108,7 +108,7 @@
     margin: 0;
 
     position: relative;
-    right: 50px;
+    right: 45px;
 }
 
 .burger_menu:active {
@@ -117,16 +117,16 @@
 }
 
 .menu {
-    width: 40px;
+    width: 35px;
     cursor: pointer;
     transition: 0.15s ease-in-out;
     padding: 5px;
 
-    background-color: rgb(247, 209, 215);
+    background-color: whitesmoke;
 }
 
 .fb_sidebar {
-    width: 50px;
+    width: 45px;
     cursor: pointer;
     transition: 0.15s ease-in-out;
     padding: 0;
@@ -136,7 +136,7 @@
 }
 
 .wa_sidebar {
-    width: 50px;
+    width: 45px;
     cursor: pointer;
     transition: 0.15s ease-in-out;
 }
