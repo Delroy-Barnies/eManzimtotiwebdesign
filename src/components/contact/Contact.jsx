@@ -4,19 +4,25 @@ import emailIcon from "../../assets/email.svg"
 import qrcode from '../../assets/eManzimtoti_review_qrcode.svg'
 import contact_ from '../../assets/contact_animation.mp4'
 import emailjs from "emailjs-com"
-import { useRef } from "react"
+import { useRef, useState } from "react"
 
 export default function Contact() {
-
+    const [sent, setSent] = useState("Send");
     const form = useRef();
 
     function sendEmail(e) {
         e.preventDefault();
         emailjs.sendForm("service_rg9e7t5", "template_6met98o", form.current, "SBCScMYejUDT9wGSF").then((result) => {
             console.log(result.text);
+            form.reset();
         }), (error) => {
             console.log(error.text);
         }
+        setSent("Sent!")
+    }
+
+    function onChange(e) {
+        setSent("Send");
     }
 
     return (<>
@@ -54,11 +60,11 @@ export default function Contact() {
                     <h4 className={styles.email_form_heading}>LEAVE US A NOTE</h4>
                     <form ref={form} onSubmit={sendEmail} className={styles.form}>
                         <div className={styles.name_and_email}>
-                            <input className={styles.name} placeholder="Your Name" type="text" name="user_name" required />
-                            <input className={styles.email} placeholder="Email" type="email" name="user_email" required />
+                            <input onChange={onChange} className={styles.name} placeholder="Your Name" type="text" name="user_name" required />
+                            <input onChange={onChange} className={styles.email} placeholder="Email" type="email" name="user_email" required />
                         </div>
-                        <textarea className={styles.message} placeholder="Your Message" name="message" maxLength="500" required />
-                        <button type="submit" className={styles.submit} >Send</button>
+                        <textarea onChange={onChange} className={styles.message} placeholder="Your Message" name="message" maxLength="500" required />
+                        <button type="submit" className={styles.submit} >{sent}</button>
                     </form>
                 </div>
             </div>
