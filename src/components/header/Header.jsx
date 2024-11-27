@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
-import burgerMenu from '../../assets/menu_menu.svg';
+import burgerMenu from '../../assets/menu_burger.svg';
 import companyLogoIcon from '../../assets/company_logo.svg';
 import facebookIcon from '../../assets/facebook.svg';
 import facebookSidebarIcon from '../../assets/facebook_sidebar.svg';
