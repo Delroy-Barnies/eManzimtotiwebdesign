@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import burgerMenu from '../../assets/menu_burger.svg';
 import companyLogoIcon from '../../assets/company_logo.svg';
 import facebookIcon from '../../assets/facebook.svg';
-import facebookSidebarIcon from '../../assets/facebook_sidebar.svg';
+import facebookSidebarIcon from '../../assets/facebook_logo.svg';
 import whatsappIcon from '../../assets/whatsapp.svg';
 import whatsappSidebarIcon from '../../assets/whatsapp_sidebar.svg';
 import styles from "./Header.module.css";
