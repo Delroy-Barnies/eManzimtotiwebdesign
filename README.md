@@ -1,6 +1,7 @@
 # eManzimtoti Web Design
 
 An engaging and fully responsive web design showcase by **Delroy Barnies**, capturing local Durban/KwaZulu‑Natal aesthetics through intuitive UI/UX and component‑based styling.
+
 Live: [https://emanzimtotiwebdesign.vercel.app/](https://emanzimtotiwebdesign.vercel.app/)
 
 ## 🚀 Project Overview
