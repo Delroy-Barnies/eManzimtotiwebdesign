@@ -20,7 +20,8 @@ Live: [https://emanzimtotiwebdesign.vercel.app/](https://emanzimtotiwebdesign.ve
 
 - **HTML5** – Semantic markup  
 - **CSS3 + CSS Modules** – Scoped, maintainable styling  
-- **JavaScript (ES2024)** – Modern JS standard  
+- **JavaScript (ES2024)** – Modern JS standard
+- **ReactJs** – JS library
 
 ## Contributors
 
